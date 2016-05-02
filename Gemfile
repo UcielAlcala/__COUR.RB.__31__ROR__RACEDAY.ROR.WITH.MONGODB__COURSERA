@@ -52,6 +52,8 @@ group :test do
 end
 
 group :production do
+  #For default and free: use postgres on heroku
+  gem 'pg'
   gem 'rails_12factor'
 end
 
